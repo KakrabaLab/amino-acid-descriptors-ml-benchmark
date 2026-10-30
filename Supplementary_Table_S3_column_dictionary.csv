@@ -1,0 +1,20 @@
+Column,Description
+ID,Sequential descriptor identifier used in the analysis table (d1-d6977)
+Descriptor_name,Original descriptor name (RDKit-derived name for d23-d6977; d1-d22 are the graph-theoretic invariants of the prior study)
+Block,"Descriptor block: Graph theoretic (d1-d22), 1D (d23-d73), 2D (d74-d406), 2D fingerprint (d407-d2358), 3D (d2359-d3257), 4D (d3258-d6977)"
+Family,Descriptor family (e.g. MORSE, RDF, GETAWAY, AUTOCORR2D, USRCAT, ECFP4) or the scalar descriptor name
+Ensemble_statistic,"For 4D descriptors, the statistic taken across the retained conformers (Mean, StdDev, Min, Max, Range, Median, Q25, Q75, IQR)"
+Parameter,"Decoded element parameter: MoRSE scattering parameter s (1/Angstrom), RDF radius R (Angstrom), autocorrelation topological lag (bonds), USRCAT atom subset/reference point/moment, or fingerprint bit/key index"
+Atomic_weighting,"Atomic property used to weight atoms (unweighted, atomic mass, van der Waals volume, electronegativity, polarizability, ionization potential, intrinsic state, covalent radius), where applicable"
+Interpretation,Plain-language chemical meaning of the descriptor; 3D descriptors refer to the first retained conformer and 4D descriptors to the conformer ensemble
+RF_Gini_importance_mean,"Gini importance from Random Forests (500 trees) fitted to all 20 amino acids, mean over seeds 0-9 (descriptive only; importances sum to 1)"
+RF_Gini_importance_SD,Standard deviation of Gini importance over the 10 seeds
+RF_Gini_rank,Rank of mean Gini importance among the 6977 descriptors (1 = highest; descriptors with zero importance share the lowest rank)
+KW_H,Kruskal-Wallis H statistic against the five Lehninger classes
+KW_p_nominal,Nominal Kruskal-Wallis p-value
+KW_p_BH_FDR,Benjamini-Hochberg FDR-adjusted p-value across all 6977 tests
+Spearman_rho_MolWt,Spearman correlation with molecular weight (d23); indicates how strongly the descriptor tracks molecular size
+Highest_3_residues,One-letter codes of the three amino acids with the highest values (ties broken by table order; uninformative for binary fingerprint bits)
+Lowest_3_residues,One-letter codes of the three amino acids with the lowest values
+N_distinct_values,Number of distinct values across the 20 amino acids (2 for binary fingerprint bits)
+Mean_<class>,"Mean descriptor value within each class: Nonpolar/aliphatic (n=7), Aromatic (n=3), Polar uncharged (n=5), Positively charged (n=3), Negatively charged (n=2)"
