@@ -1,11 +1,14 @@
 
 Machine Learning and Statistical Benchmarking of 39 Classifiers for the Physicochemical Classification of the 20 Standard Amino Acids from a Unified Molecular Descriptor Set, with Explicit Null-Control Validation
+
 Samuel Kakraba1,2,3,*, Edmund Fosu Agyemang1, Kamyar Sharifi4, Desmond Yemeh3 and Helena Okyere5
+
 1Department of Biostatistics and Data Science, Celia Scott Weatherhead School of Public Health and Tropical Medicine, Tulane University, New Orleans, LA, USA
 2Connolly Alexander Institute for Data Science, Tulane University, New Orleans, LA, United States
 3Tulane Center for Aging, School of Medicine, Tulane University, New Orleans, LA, United States
 4Biomedical Science Graduate Program, School of Medicine, Tulane University, New Orleans, LA, United States
 5Department of Chemistry, School of Science and Engineering, Tulane University, New Orleans, LA, United States
+
 *Corresponding author: Samuel Kakraba, Department of Biostatistics and Data Science, Celia Scott Weatherhead School of Public Health and Tropical Medicine, Tulane University, 1440 Canal Street, New Orleans, LA 70112, USA. Email: skakraba@tulane.edu; Tel: 504-988-2475
 
 
